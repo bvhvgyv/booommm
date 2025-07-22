@@ -95,38 +95,3 @@ nav ul{
     opacity: 0;
     transition: opacity 0.3s;
 }
-/* ...existing code... */
-
-/* Responsive styles for mobile */
-@media (max-width: 600px) {
-    body {
-        font-size: 16px;
-        padding: 10px;
-    }
-    .player-container {
-        width: 100%;
-        min-width: 0;
-        padding: 10px;
-        box-sizing: border-box;
-    }
-    .songitem {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-bottom: 10px;
-        width: 100%;
-    }
-    .songitem img {
-        width: 80px;
-        height: 80px;
-    }
-    #masterplay, .fa-step-backward, .fa-step-forward {
-        font-size: 32px;
-        margin: 10px;
-    }
-    #myProgressBar {
-        width: 100%;
-    }
-}
-
-/* ...existing code... */
