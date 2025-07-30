@@ -34,7 +34,7 @@ let songs = [
     {songName: "CRY", filePath: "song/28.mp3", coverPath: "covers/1.jpg"},
     {songName: "CRY", filePath: "song/29.mp3", coverPath: "covers/1.jpg"},
     {songName: "CRY", filePath: "song/30.mp3", coverPath: "covers/1.jpg"},
-    {songName: "CRY", filePath: "song/31.mp3", coverPath: "covers/1.jpg"},
+    {songName: "CRY", filePath: "song/31.mp3", coverPath: "covers/1.jpg"},    
 ]
 let songItems = document.querySelectorAll('.songitem');
 let songIndex = 0; // Track which song is playing
